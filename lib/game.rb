@@ -11,7 +11,11 @@ class Game
     else
       "#{first_move} beats #{COMBINATIONS[first_move]}"
     end
+  end
 
+  def get_user_input
+    puts "please select rock paper or scissors"
+    gets.chomp
   end
 
 end
